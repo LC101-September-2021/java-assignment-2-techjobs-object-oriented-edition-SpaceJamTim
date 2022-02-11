@@ -1,8 +1,8 @@
 package org.launchcode.techjobs.oo.test;
 
 import org.junit.Test;
-import org.junit.runner.RunWith;
-import org.junit.runners.JUnit4;
+//import org.junit.runner.RunWith;
+//import org.junit.runners.JUnit4;
 import org.launchcode.techjobs.oo.*;
 
 import static junit.framework.TestCase.assertFalse;
@@ -12,7 +12,7 @@ import static org.junit.Assert.assertEquals;
 /**
  * Created by LaunchCode
  */
-@RunWith(JUnit4.class)
+//@RunWith(JUnit4.class)
 public class JobTest {
 
     Job testJob = new Job();
@@ -26,6 +26,10 @@ public class JobTest {
         assertFalse(testJob.getId() == testJob2.getId());
     }
 
+    @Test
+    public void testSettingId(){
+        assertFalse(testJob.getId() == testJob2.getId());
+    }
 
     @Test
     public void testJobConstructorSetsAllFields() {
