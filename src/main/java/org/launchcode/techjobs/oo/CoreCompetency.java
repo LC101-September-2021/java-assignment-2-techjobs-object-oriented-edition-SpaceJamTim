@@ -12,7 +12,7 @@ public class CoreCompetency extends JobField {
 
     public CoreCompetency() {
         super();
-//        this.id = nextId;
+        this.id = nextId;
         nextId++;
     }
 
