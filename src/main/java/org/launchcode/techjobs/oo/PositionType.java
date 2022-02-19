@@ -9,6 +9,7 @@ public class PositionType extends JobField {
     // private String value;
 
     public PositionType() {
+        super();
         id = nextId;
         nextId++;
     }

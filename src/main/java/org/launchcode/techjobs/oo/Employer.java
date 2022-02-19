@@ -9,6 +9,7 @@ public class Employer extends JobField{
    // private String value;
 
     public Employer() {
+        super();
         id = nextId;
         nextId++;
     }

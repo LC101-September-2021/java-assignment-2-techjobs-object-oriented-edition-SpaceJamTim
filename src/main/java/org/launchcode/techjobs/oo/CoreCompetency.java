@@ -11,6 +11,7 @@ public class CoreCompetency extends JobField {
     //private String value;
 
     public CoreCompetency() {
+        super();
         this.id = nextId;
         nextId++;
     }
