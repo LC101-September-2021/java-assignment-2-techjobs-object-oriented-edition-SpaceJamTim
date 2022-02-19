@@ -12,7 +12,7 @@ public class CoreCompetency extends JobField {
 
     public CoreCompetency() {
         super();
-        this.id = nextId;
+//        this.id = nextId;
         nextId++;
     }
 
@@ -53,7 +53,7 @@ public class CoreCompetency extends JobField {
     //    return value;
     //}
     //
-    //public void setValue(String value) {
+            //public void setValue(String value) {
     //    this.value = value;
     //}
     public int getId() {
