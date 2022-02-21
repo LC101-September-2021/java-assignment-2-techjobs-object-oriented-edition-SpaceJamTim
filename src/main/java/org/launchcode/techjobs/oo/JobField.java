@@ -7,7 +7,6 @@ public abstract class JobField {
     public int id;
     public static int nextId = 1;
 
-    //does "value" need to be initialized here?
 
     public String value;
 
